@@ -1,0 +1,10 @@
+<Company name = "Fanjet">Fanjet named
+	<CSVPath>D:\RawConvertDevFolder\CSV</CSVPath>
+	<databasePath>D:\OneDrive\Documents\Projekte\FDA flightview\FDA\bin\Debug\Data\Fanjet\foqa.mdb</databasePath>
+	<reportPath>D:\OneDrive\Documents\Projekte\FDA flightview\FDA\bin\Debug\Data\report.mdb</reportPath>
+	<AnalysesLogsPath>D:\Analyses logs\DevAnalysesLog</AnalysesLogsPath>
+	<Mode>dev</Mode>user reporting \user \ Demo \ dev
+	<connectionString>geen</connectionString>
+	<note>set company name will select the db to use</note>
+</Company>
+

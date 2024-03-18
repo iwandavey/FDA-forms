@@ -1,0 +1,376 @@
+ Para.Add("CAS / IAS");
+                //    lpen.Color = Color.DarkCyan;
+                //    colors.Add(lpen.Color);
+                //    lblCASv.ForeColor = lpen.Color;
+				
+				this.flapTe.AutoSize = true;
+            this.flapTe.BackColor = System.Drawing.Color.Transparent;
+            this.flapTe.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flapTe.ForeColor = System.Drawing.Color.Aqua;
+            this.flapTe.Location = new System.Drawing.Point(424, 296);
+            this.flapTe.Name = "flapTe";
+            this.flapTe.Size = new System.Drawing.Size(28, 14);
+            this.flapTe.TabIndex = 125;
+            this.flapTe.Text = "40.9";
+            this.flapTe.Visible = false;
+            // 
+            // lblHDGv
+            // 
+            this.lblHDGv.AutoSize = true;
+            this.lblHDGv.BackColor = System.Drawing.Color.Transparent;
+            this.lblHDGv.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHDGv.ForeColor = System.Drawing.Color.DeepPink;
+            this.lblHDGv.Location = new System.Drawing.Point(416, 320);
+            this.lblHDGv.Name = "lblHDGv";
+            this.lblHDGv.Size = new System.Drawing.Size(34, 14);
+            this.lblHDGv.TabIndex = 126;
+            this.lblHDGv.Text = "360.9";
+            this.lblHDGv.Visible = false;
+            // 
+            // lblCASv
+            // 
+            this.lblCASv.AutoSize = true;
+            this.lblCASv.BackColor = System.Drawing.Color.Transparent;
+            this.lblCASv.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCASv.ForeColor = System.Drawing.Color.DarkViolet;
+            this.lblCASv.Location = new System.Drawing.Point(424, 344);
+            this.lblCASv.Name = "lblCASv";
+            this.lblCASv.Size = new System.Drawing.Size(25, 14);
+            this.lblCASv.TabIndex = 127;
+            this.lblCASv.Text = "350";
+            this.lblCASv.Visible = false;
+            // 
+            // altRadioLable
+            // 
+            this.altRadioLable.AutoSize = true;
+            this.altRadioLable.BackColor = System.Drawing.Color.Transparent;
+            this.altRadioLable.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.altRadioLable.ForeColor = System.Drawing.Color.Purple;
+            this.altRadioLable.Location = new System.Drawing.Point(424, 376);
+            this.altRadioLable.Name = "altRadioLable";
+            this.altRadioLable.Size = new System.Drawing.Size(31, 14);
+            this.altRadioLable.TabIndex = 128;
+            this.altRadioLable.Text = "9999";
+            this.altRadioLable.Visible = false;
+            // 
+            // verticalSpeed
+            // 
+            this.verticalSpeed.AutoSize = true;
+            this.verticalSpeed.BackColor = System.Drawing.Color.Transparent;
+            this.verticalSpeed.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.verticalSpeed.ForeColor = System.Drawing.Color.Green;
+            this.verticalSpeed.Location = new System.Drawing.Point(424, 392);
+            this.verticalSpeed.Name = "verticalSpeed";
+            this.verticalSpeed.Size = new System.Drawing.Size(35, 14);
+            this.verticalSpeed.TabIndex = 129;
+            this.verticalSpeed.Text = "-3000";
+            this.verticalSpeed.Visible = false;
+            // 
+            // eng1N1
+            // 
+            this.eng1N1.AutoSize = true;
+            this.eng1N1.BackColor = System.Drawing.Color.Transparent;
+            this.eng1N1.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eng1N1.ForeColor = System.Drawing.Color.Brown;
+            this.eng1N1.Location = new System.Drawing.Point(923, 320);
+            this.eng1N1.Name = "eng1N1";
+            this.eng1N1.Size = new System.Drawing.Size(34, 14);
+            this.eng1N1.TabIndex = 130;
+            this.eng1N1.Text = "100.8";
+            this.eng1N1.Visible = false;
+            // 
+            // eng2N1
+            // 
+            this.eng2N1.AutoSize = true;
+            this.eng2N1.BackColor = System.Drawing.Color.Transparent;
+            this.eng2N1.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eng2N1.ForeColor = System.Drawing.Color.Chocolate;
+            this.eng2N1.Location = new System.Drawing.Point(923, 335);
+            this.eng2N1.Name = "eng2N1";
+            this.eng2N1.Size = new System.Drawing.Size(34, 14);
+            this.eng2N1.TabIndex = 12446;
+            this.eng2N1.Text = "100.8";
+            this.eng2N1.Visible = false;
+            // 
+            // lblAccVertv
+            // 
+            this.lblAccVertv.AutoSize = true;
+            this.lblAccVertv.BackColor = System.Drawing.Color.Transparent;
+            this.lblAccVertv.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAccVertv.ForeColor = System.Drawing.Color.LimeGreen;
+            this.lblAccVertv.Location = new System.Drawing.Point(464, 256);
+            this.lblAccVertv.Name = "lblAccVertv";
+            this.lblAccVertv.Size = new System.Drawing.Size(22, 14);
+            this.lblAccVertv.TabIndex = 12447;
+            this.lblAccVertv.Text = "9.9";
+            this.lblAccVertv.Visible = false;
+            // 
+            // attitudePitch
+            // 
+            this.attitudePitch.BackColor = System.Drawing.Color.Transparent;
+            this.attitudePitch.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.attitudePitch.ForeColor = System.Drawing.Color.Red;
+            this.attitudePitch.Location = new System.Drawing.Point(464, 272);
+            this.attitudePitch.Name = "attitudePitch";
+            this.attitudePitch.Size = new System.Drawing.Size(25, 14);
+            this.attitudePitch.TabIndex = 12448;
+            this.attitudePitch.Text = "-9.9";
+            this.attitudePitch.Visible = false;
+            // 
+            // lblWeightVal
+            // 
+            this.lblWeightVal.AutoSize = true;
+            this.lblWeightVal.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWeightVal.Location = new System.Drawing.Point(6, 28);
+            this.lblWeightVal.Name = "lblWeightVal";
+            this.lblWeightVal.Size = new System.Drawing.Size(58, 14);
+            this.lblWeightVal.TabIndex = 12449;
+            this.lblWeightVal.Text = "GW 60000";
+            this.lblWeightVal.Visible = false;
+            // 
+            // lblTAT
+            // 
+            this.lblTAT.AutoSize = true;
+            this.lblTAT.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTAT.Location = new System.Drawing.Point(6, 10);
+            this.lblTAT.Name = "lblTAT";
+            this.lblTAT.Size = new System.Drawing.Size(51, 14);
+            this.lblTAT.TabIndex = 12450;
+            this.lblTAT.Text = "TAT 39.9";
+            this.lblTAT.Visible = false;
+            // 
+            // lblWind
+            // 
+            this.lblWind.AutoSize = true;
+            this.lblWind.BackColor = System.Drawing.Color.Transparent;
+            this.lblWind.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWind.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lblWind.Location = new System.Drawing.Point(560, 272);
+            this.lblWind.Name = "lblWind";
+            this.lblWind.Size = new System.Drawing.Size(74, 13);
+            this.lblWind.TabIndex = 12451;
+            this.lblWind.Text = "--- Wind Vel";
+            this.lblWind.Visible = false;
+            // 
+            // lblAP
+            // 
+            this.lblAP.AutoSize = true;
+            this.lblAP.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAP.Location = new System.Drawing.Point(8, 280);
+            this.lblAP.Name = "lblAP";
+            this.lblAP.Size = new System.Drawing.Size(0, 14);
+            this.lblAP.TabIndex = 12452;
+            // 
+            // lblDME
+            // 
+            this.lblDME.AutoSize = true;
+            this.lblDME.BackColor = System.Drawing.Color.Transparent;
+            this.lblDME.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDME.ForeColor = System.Drawing.Color.Black;
+            this.lblDME.Location = new System.Drawing.Point(496, 200);
+            this.lblDME.Name = "lblDME";
+            this.lblDME.Size = new System.Drawing.Size(34, 14);
+            this.lblDME.TabIndex = 12453;
+            this.lblDME.Text = "100.8";
+            this.lblDME.Visible = false;
+            // 
+            // lBank
+            // 
+            this.lBank.AutoSize = true;
+            this.lBank.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lBank.Location = new System.Drawing.Point(9, 46);
+            this.lBank.Name = "lBank";
+            this.lBank.Size = new System.Drawing.Size(36, 13);
+            this.lBank.TabIndex = 12454;
+            this.lBank.Text = "Bank";
+            this.lBank.Visible = false;
+			
+			 this.accLongMax.AutoSize = true;
+            this.accLongMax.BackColor = System.Drawing.Color.Transparent;
+            this.accLongMax.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accLongMax.ForeColor = System.Drawing.Color.OliveDrab;
+            this.accLongMax.Location = new System.Drawing.Point(720, 240);
+            this.accLongMax.Name = "accLongMax";
+            this.accLongMax.Size = new System.Drawing.Size(22, 14);
+            this.accLongMax.TabIndex = 12488;
+            this.accLongMax.Text = "9.9";
+            this.accLongMax.Visible = false;
+            // 
+            // navFreqL
+            // 
+            this.navFreqL.AutoSize = true;
+            this.navFreqL.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navFreqL.Location = new System.Drawing.Point(539, 0);
+            this.navFreqL.Name = "navFreqL";
+            this.navFreqL.Size = new System.Drawing.Size(29, 13);
+            this.navFreqL.TabIndex = 12487;
+            this.navFreqL.Text = "VOR";
+            // 
+            // messages
+            // 
+            this.messages.AutoSize = true;
+            this.messages.BackColor = System.Drawing.Color.Transparent;
+            this.messages.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.messages.ForeColor = System.Drawing.Color.DarkOrange;
+            this.messages.Location = new System.Drawing.Point(223, 130);
+            this.messages.Name = "messages";
+            this.messages.Size = new System.Drawing.Size(34, 14);
+            this.messages.TabIndex = 12486;
+            this.messages.Text = "100.8";
+            this.messages.Visible = false;
+            // 
+            // eng1RPM
+            // 
+            this.eng1RPM.AutoSize = true;
+            this.eng1RPM.BackColor = System.Drawing.Color.Transparent;
+            this.eng1RPM.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eng1RPM.ForeColor = System.Drawing.Color.Brown;
+            this.eng1RPM.Location = new System.Drawing.Point(735, 328);
+            this.eng1RPM.Name = "eng1RPM";
+            this.eng1RPM.Size = new System.Drawing.Size(34, 14);
+            this.eng1RPM.TabIndex = 12485;
+            this.eng1RPM.Text = "100.8";
+            this.eng1RPM.Visible = false;
+            // 
+            // TAS
+            // 
+            this.TAS.AutoSize = true;
+            this.TAS.BackColor = System.Drawing.Color.Transparent;
+            this.TAS.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TAS.ForeColor = System.Drawing.Color.Salmon;
+            this.TAS.Location = new System.Drawing.Point(804, 240);
+            this.TAS.Name = "TAS";
+            this.TAS.Size = new System.Drawing.Size(34, 14);
+            this.TAS.TabIndex = 12484;
+            this.TAS.Text = "100.8";
+            this.TAS.Visible = false;
+            // 
+            // accLateral
+            // 
+            this.accLateral.AutoSize = true;
+            this.accLateral.BackColor = System.Drawing.Color.Transparent;
+            this.accLateral.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accLateral.ForeColor = System.Drawing.Color.OliveDrab;
+            this.accLateral.Location = new System.Drawing.Point(720, 200);
+            this.accLateral.Name = "accLateral";
+            this.accLateral.Size = new System.Drawing.Size(22, 14);
+            this.accLateral.TabIndex = 12483;
+            this.accLateral.Text = "9.9";
+            this.accLateral.Visible = false;
+            // 
+            // attitudeRoll
+            // 
+            this.attitudeRoll.AutoSize = true;
+            this.attitudeRoll.BackColor = System.Drawing.Color.Transparent;
+            this.attitudeRoll.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.attitudeRoll.ForeColor = System.Drawing.Color.MediumBlue;
+            this.attitudeRoll.Location = new System.Drawing.Point(483, 271);
+            this.attitudeRoll.Name = "attitudeRoll";
+            this.attitudeRoll.Size = new System.Drawing.Size(31, 14);
+            this.attitudeRoll.TabIndex = 12482;
+            this.attitudeRoll.Text = "9999";
+            this.attitudeRoll.Visible = false;
+            // 
+            // eng1OilTemperature
+            // 
+            this.eng1OilTemperature.AutoSize = true;
+            this.eng1OilTemperature.BackColor = System.Drawing.Color.Transparent;
+            this.eng1OilTemperature.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eng1OilTemperature.ForeColor = System.Drawing.Color.DarkSlateBlue;
+            this.eng1OilTemperature.Location = new System.Drawing.Point(754, 296);
+            this.eng1OilTemperature.Name = "eng1OilTemperature";
+            this.eng1OilTemperature.Size = new System.Drawing.Size(31, 14);
+            this.eng1OilTemperature.TabIndex = 12481;
+            this.eng1OilTemperature.Text = "9999";
+            this.eng1OilTemperature.Visible = false;
+            // 
+            // eng1OilPressure
+            // 
+            this.eng1OilPressure.AutoSize = true;
+            this.eng1OilPressure.BackColor = System.Drawing.Color.Transparent;
+            this.eng1OilPressure.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eng1OilPressure.ForeColor = System.Drawing.Color.Purple;
+            this.eng1OilPressure.Location = new System.Drawing.Point(697, 320);
+            this.eng1OilPressure.Name = "eng1OilPressure";
+            this.eng1OilPressure.Size = new System.Drawing.Size(31, 14);
+            this.eng1OilPressure.TabIndex = 12480;
+            this.eng1OilPressure.Text = "9999";
+            this.eng1OilPressure.Visible = false;
+            // 
+            // eng1fp
+            // 
+            this.eng1fp.AutoSize = true;
+            this.eng1fp.BackColor = System.Drawing.Color.Transparent;
+            this.eng1fp.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eng1fp.ForeColor = System.Drawing.Color.Goldenrod;
+            this.eng1fp.Location = new System.Drawing.Point(843, 306);
+            this.eng1fp.Name = "eng1fp";
+            this.eng1fp.Size = new System.Drawing.Size(19, 14);
+            this.eng1fp.TabIndex = 12479;
+            this.eng1fp.Text = "10";
+            this.eng1fp.Visible = false;
+            // 
+            // E2N2
+            // 
+            this.E2N2.AutoSize = true;
+            this.E2N2.BackColor = System.Drawing.Color.Transparent;
+            this.E2N2.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E2N2.ForeColor = System.Drawing.Color.LightGreen;
+            this.E2N2.Location = new System.Drawing.Point(923, 373);
+            this.E2N2.Name = "E2N2";
+            this.E2N2.Size = new System.Drawing.Size(34, 14);
+            this.E2N2.TabIndex = 12466;
+            this.E2N2.Text = "100.8";
+            this.E2N2.Visible = false;
+            // 
+            // E1N2
+            // 
+            this.E1N2.AutoSize = true;
+            this.E1N2.BackColor = System.Drawing.Color.Transparent;
+            this.E1N2.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E1N2.ForeColor = System.Drawing.Color.Green;
+            this.E1N2.Location = new System.Drawing.Point(923, 359);
+            this.E1N2.Name = "E1N2";
+            this.E1N2.Size = new System.Drawing.Size(34, 14);
+            this.E1N2.TabIndex = 12465;
+            this.E1N2.Text = "100.8";
+            this.E1N2.Visible = false;
+            // 
+            // eng1FF
+            // 
+            this.eng1FF.AutoSize = true;
+            this.eng1FF.BackColor = System.Drawing.Color.Transparent;
+            this.eng1FF.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eng1FF.ForeColor = System.Drawing.Color.DarkGoldenrod;
+            this.eng1FF.Location = new System.Drawing.Point(923, 280);
+            this.eng1FF.Name = "eng1FF";
+            this.eng1FF.Size = new System.Drawing.Size(34, 14);
+            this.eng1FF.TabIndex = 12464;
+            this.eng1FF.Text = "100.8";
+            this.eng1FF.Visible = false;
+            // 
+            // eng2FF
+            // 
+            this.eng2FF.AutoSize = true;
+            this.eng2FF.BackColor = System.Drawing.Color.Transparent;
+            this.eng2FF.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eng2FF.ForeColor = System.Drawing.Color.Goldenrod;
+            this.eng2FF.Location = new System.Drawing.Point(923, 296);
+            this.eng2FF.Name = "eng2FF";
+            this.eng2FF.Size = new System.Drawing.Size(34, 14);
+            this.eng2FF.TabIndex = 12463;
+            this.eng2FF.Text = "100.8";
+            this.eng2FF.Visible = false;
+            // 
+            // eng2Egt2
+            // 
+            this.eng2Egt2.AutoSize = true;
+            this.eng2Egt2.BackColor = System.Drawing.Color.Transparent;
+            this.eng2Egt2.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eng2Egt2.ForeColor = System.Drawing.Color.Chocolate;
+            this.eng2Egt2.Location = new System.Drawing.Point(734, 359);
+            this.eng2Egt2.Name = "eng2Egt2";
+            this.eng2Egt2.Size = new System.Drawing.Size(34, 14);
+            this.eng2Egt2.TabIndex = 12462;
+            this.eng2Egt2.Text = "100.8";
+            this.eng2Egt2.Visible = false;

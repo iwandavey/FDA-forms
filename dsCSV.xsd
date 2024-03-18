@@ -1,0 +1,104 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsCSV" targetNamespace="http://www.tempuri.org/dsCSV.xsd" xmlns:mstns="http://www.tempuri.org/dsCSV.xsd" xmlns="http://www.tempuri.org/dsCSV.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsCSV" msdata:IsDataSet="true" msdata:Locale="en-ZA">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Alberta_x0023_csv">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AIRgnd" type="xs:int" minOccurs="0" />
+              <xs:element name="ALT" type="xs:int" minOccurs="0" />
+              <xs:element name="CAS" type="xs:int" minOccurs="0" />
+              <xs:element name="COUNTER" type="xs:double" minOccurs="0" />
+              <xs:element name="eng1N1" type="xs:double" minOccurs="0" />
+              <xs:element name="eng1N2" type="xs:double" minOccurs="0" />
+              <xs:element name="csv.eng2EGT" type="xs:int" minOccurs="0" />
+              <xs:element name="ENG2n1" type="xs:double" minOccurs="0" />
+              <xs:element name="csv.eng2N2" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblAirport">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AirportID" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="AirportName" type="xs:string" minOccurs="0" />
+              <xs:element name="ICAOdes" type="xs:string" minOccurs="0" />
+              <xs:element name="Runway" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblExceedance">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateOfExc" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ExcedanceID" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Exceedance" type="xs:string" minOccurs="0" />
+              <xs:element name="Fcounter" type="xs:int" minOccurs="0" />
+              <xs:element name="FileFlightNo" type="xs:int" minOccurs="0" />
+              <xs:element name="fkAirport" type="xs:int" minOccurs="0" />
+              <xs:element name="fkCapt" type="xs:int" minOccurs="0" />
+              <xs:element name="fkfFlightPhase" type="xs:int" minOccurs="0" />
+              <xs:element name="fkFO" type="xs:int" minOccurs="0" />
+              <xs:element name="fkTblFile" type="xs:int" minOccurs="0" />
+              <xs:element name="FlighNo" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeOfExc" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblFiles">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ACReg" type="xs:string" minOccurs="0" />
+              <xs:element name="DateRead" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Dir" type="xs:string" minOccurs="0" />
+              <xs:element name="FileID" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Filename" type="xs:string" minOccurs="0" />
+              <xs:element name="Flights" type="xs:short" minOccurs="0" />
+              <xs:element name="Hours" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblFlightPhase">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="FlightPhaseID" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Phase" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblPilots">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmployeeNo" type="xs:short" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="PilotID" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Rank" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblAirport" />
+      <xs:field xpath="mstns:AirportID" />
+    </xs:unique>
+    <xs:unique name="tblExceedance_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblExceedance" />
+      <xs:field xpath="mstns:ExcedanceID" />
+    </xs:unique>
+    <xs:unique name="tblFiles_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblFiles" />
+      <xs:field xpath="mstns:FileID" />
+    </xs:unique>
+    <xs:unique name="tblFlightPhase_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblFlightPhase" />
+      <xs:field xpath="mstns:FlightPhaseID" />
+    </xs:unique>
+    <xs:unique name="tblPilots_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblPilots" />
+      <xs:field xpath="mstns:PilotID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

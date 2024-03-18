@@ -1,0 +1,17 @@
+<setup>
+	<Company>star air dev</Company>
+	<CSVPath>C:\Users\Fiji\OneDrive - StarAir Cargo\Star\CSV</CSVPath>
+	<sql>false</sql>
+	<databasePath>C:\Users\Fiji\OneDrive\Documents\Projekte\FDA flightview\FDA\bin\Debug\Data\star\foqa.mdb</databasePath>
+	<reportPath>C:\Users\Fiji\OneDrive\LapWerkLer\Reports\reportStar.mdb</reportPath>
+	<AnalysesLogsPath>C:\Algemeen\AnalysesReports\StartAnReports</AnalysesLogsPath>
+	<Mode>dev</Mode>user reporting \user \ Demo \ dev
+	<connectionString>geen</connectionString>
+	<note>set company name will select the db to use</note>
+	<userprofile>
+<graphfirstview>
+<ilsloc>false</ilsloc>
+<ilsgs>false</ilsgs>
+</graphfirstview>
+</userprofile>
+</setup>

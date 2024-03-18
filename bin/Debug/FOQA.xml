@@ -1,0 +1,557 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FOQA</name>
+    </assembly>
+    <members>
+        <member name="T:FOQA.dsCSV">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV._Alberta_csvDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV.tblAirportDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV.tblExceedanceDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV.tblFilesDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV.tblFlightPhaseDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV.tblPilotsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV._Alberta_csvRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV.tblAirportRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV.tblExceedanceRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV.tblFilesRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV.tblFlightPhaseRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV.tblPilotsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV._Alberta_csvRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV.tblAirportRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV.tblExceedanceRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV.tblFilesRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV.tblFlightPhaseRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:FOQA.dsCSV.tblPilotsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="F:FOQA.eventView.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.eventView.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FOQA.eventView.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FOQA.graphDedicated">
+            <summary>
+            Summary description for frmGraph.
+            </summary>
+        </member>
+        <member name="M:FOQA.graphDedicated.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:FOQA.graphDedicated.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FOQA.frmGraphNew">
+            <summary>
+            Summary description for frmGraph.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmGraphNew.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmGraphNew.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmGraphNew.GetRowPosition">
+            <summary>
+            get the csv row to use for value retrieval.
+            </summary>
+        </member>
+        <member name="F:FOQA.graphParameters.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.graphParameters.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FOQA.graphParameters.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FOQA.TestForms.FlightsFlown.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.TestForms.FlightsFlown.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FOQA.TestForms.FlightsFlown.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FOQA.TestForms.testForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.TestForms.testForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FOQA.TestForms.testForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FOQA.userInput.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.userInput.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FOQA.userInput.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FOQA.createKML.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.createKML.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FOQA.createKML.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FOQA.fAircraft.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.fAircraft.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FOQA.fAircraft.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FOQA.fAnalyzeParameters.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.fAnalyzeParameters.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FOQA.fAnalyzeParameters.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FOQA.fFileName.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.fFileName.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FOQA.fFileName.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmMainFOQA.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmMainFOQA.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmMainFOQA.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmMainFOQA.SetTools(System.Boolean)">
+            <summary>
+            If the flight information file (csv) has been loaded, set the toolbar as needed.
+            </summary>
+            <param name="value">Set true or false.</param>
+        </member>
+        <member name="M:FOQA.frmMainFOQA.ExceedanceFindMain(System.Boolean)">
+            <summary>
+            Analyse for eventws.
+            </summary>
+            <param name="singleAnalyses">If set to true, the analyses wil be done, and not saved.</param>
+        </member>
+        <member name="M:FOQA.frmMainFOQA.SkepVliegtuigTipeKiesLys">
+            <summary>
+            Sit die vliegtuig tipe by die kieslys gebaseer op data van tipes in die gespesiseerde tyd.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmMainFOQA.scopeMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Sit die scope by kieslys gebaseer op beskibare scope.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:FOQA.frmMainFOQA.setEventParameters">
+            <summary>
+            This will distinguis whether the files is opend as a single file, or opend from the main screen. If no counter position is available, a set counter position of 250 will be set.
+            </summary>
+        </member>
+        <member name="F:FOQA.fProgress.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.fProgress.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FOQA.fProgress.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FOQA.frmAirports">
+            <summary>
+            Summary description for frmAirport1.
+            </summary>
+        </member>
+        <member name="F:FOQA.frmAirports.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmAirports.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmAirports.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FOQA.Flights">
+            <summary>
+            Summary description for frmFlightTracker.
+            </summary>
+        </member>
+        <member name="M:FOQA.Flights.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:FOQA.Flights.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FOQA.frmGraph">
+            <summary>
+            Summary description for frmGraph.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmGraph.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmGraph.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmGraph.aplicationMode">
+            <summary>
+            Used when the aplication is in demo mode.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmGraph.DrawBM">
+            <summary>
+            Draw the graf lines. The scale is drawn under DrawScale.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmGraph.DrawScale">
+            <summary>
+            Draw the horisontal scale values.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmGraph.WriteVal">
+            <summary>
+            Write the values next to the lubbeline.
+            </summary>
+        </member>
+        <member name="M:FOQA.frmGraph.lubberLineValueToReturn(System.String)">
+            <summary>
+            Get the value under the lubberline and return it as a string.
+            </summary>
+            <param name="valueToreturn"></param>
+            <returns>Parameter value to return</returns>
+        </member>
+        <member name="M:FOQA.frmGraph.getCsvPosition">
+            <summary>
+            Return the value of the representing the row position of the underlying csv database to the cursor on the graph.
+            </summary>
+            <returns>Int relating to the csv data row position relating to the graph cursor position.</returns>
+        </member>
+        <member name="F:FOQA.fRunways.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.fRunways.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FOQA.fRunways.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FOQA.fSettings.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.fSettings.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FOQA.fSettings.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FOQA.fSim.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.fSim.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FOQA.fSim.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FOQA.fTest.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.fTest.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FOQA.fTest.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FOQA.fTraking.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FOQA.fTraking.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FOQA.fTraking.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FOQA.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:FOQA.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:FOQA.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="M:FOQAcalc.cCalc.Acceleration(System.Double,System.Double,System.Double)">
+            <summary>
+            This method calculate acceleration in fps.
+            </summary>
+            <param name="initialVelocity">Enter the ititial velocity in knots</param>
+            <param name="finalVelocity">Enter the final velocity in knots</param>
+            <param name="timeSeconds">enter time in seconds</param>
+            <returns>Return the acceleration / deceleration(-) in fps</returns>
+        </member>
+        <member name="T:FOQAData.appSettings">
+            <summary>
+            Summary description for Global.
+            </summary>
+            
+        </member>
+    </members>
+</doc>

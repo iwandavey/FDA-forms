@@ -1,0 +1,17 @@
+<setup>
+	<Company>star air</Company>
+	<CSVPath>C:\Users\iwand\OneDrive - StarAir Cargo\Star\CSV</CSVPath>
+	<sql>false</sql>
+	<databasePath>C:\Users\iwand\OneDrive - StarAir Cargo\Star\FDA\Data\star\foqa.mdb</databasePath>
+	<reportPath>D:\Flight Data Monitoring\report.mdb</reportPath>
+	<AnalysesLogsPath>D:\Analyses logs</AnalysesLogsPath>
+	<Mode>dev</Mode>user reporting \user \ Demo
+	<connectionString>geen</connectionString>
+	<note>set company name will select the db to use</note>
+	<userprofile>
+	<graphfirstview>
+	<ilsloc>false</ilsloc>	
+	<ilsgs>false</ilsgs>
+	</graphfirstview>
+	</userprofile>
+</setup>

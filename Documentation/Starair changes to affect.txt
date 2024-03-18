@@ -1,0 +1,27 @@
+Start air
+remove bank anlges 
+add N1 to the gpws parameters.
+add lateral and vertical acceleration to TGG frame
+
+
+
+
+Normalisation - software need to understand lower and uppercase registrations.
+Copy .txt files when copying done files.
+
+Mike will contack me regarding new data frames
+
+Add to db AccLat
+Add to db AccLong
+
+VDB frame
+	Date time does not work. Check if clock is set correct / check with Phill
+	
+Check fuel flow
+
+Thrust reverser still opperational at low speed.
+2 May 21 748 749  TGX
+
+High cruise speed in turbulance.
+
+TGG is similar to frame 2, Check if fuel qty work.

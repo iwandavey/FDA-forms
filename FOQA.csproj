@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC948E8D-6CBC-49B0-B1AE-524057347AF2}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Yingfengling-Fl-Mac-Office-Paper-plane.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>FOQA</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FOQA</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>FOQA.frmMainFOQA</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>C1B9C4597B37284515D0F95A2F6ABC4905AAD077</ManifestCertificateThumbprint>
+    <ManifestKeyFile>FOQA_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>false</SignManifests>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\Iwan Davey\Projects\FOQA Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\FOQA\FOQA\</InstallUrl>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\FOQA.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ADI">
+      <HintPath>Dependancies\ADI.dll</HintPath>
+    </Reference>
+    <Reference Include="cdi.linecontrol">
+      <HintPath>Dependancies\cdi.linecontrol.dll</HintPath>
+    </Reference>
+    <Reference Include="EHSI">
+      <HintPath>Dependancies\EHSI.dll</HintPath>
+    </Reference>
+    <Reference Include="FDAClassLibrary">
+      <HintPath>..\..\fdaLib\FDAClassLibrary\bin\Debug\FDAClassLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Gauge">
+      <HintPath>Dependancies\Gauge.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <Private>True</Private>
+    </Reference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Private>True</Private>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationClasses\FormAppMessages.cs" />
+    <Compile Include="ApplicationClasses\PlotList.cs" />
+    <Compile Include="ApplicationClasses\PlotParameters.cs" />
+    <Compile Include="dsCSV.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCSV.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EventView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EventView.designer.cs">
+      <DependentUpon>EventView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="graphDedicated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGraphNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="graphParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="graphParameters.Designer.cs">
+      <DependentUpon>graphParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FlightsFlown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FlightsFlown.Designer.cs">
+      <DependentUpon>FlightsFlown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestForms\testForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForms\testForm.Designer.cs">
+      <DependentUpon>testForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userInput.designer.cs">
+      <DependentUpon>userInput.cs</DependentUpon>
+    </Compile>
+    <Content Include="Annotation_2020-04-16_172848.ico" />
+    <Content Include="App.ico" />
+    <Content Include="AppBasic.ico" />
+    <Content Include="dsCSV.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>dsCSV.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="FDAiconQuality.ico" />
+    <Content Include="hnet.com-image.ico" />
+    <Content Include="icons\039.gif" />
+    <Content Include="icons\040.gif" />
+    <Content Include="icons\041.gif" />
+    <Content Include="icons\042.gif" />
+    <Content Include="icons\ACCvert.GIF" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\readme.html" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\3G iPod.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Bitmaps Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Blank Badge Green.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Blank Badge Grey.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Blank Badge Purple.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Blank Disc Orange.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Blank Disc Red.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\File Server Asia.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Game Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Games Badge.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Gear Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Happy iMac.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Iconbuilder Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Iconfactory Badge.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Iconfactory Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\iDisk Badge.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\iDisk Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Internal Drive alt.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\iPod Black.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\iPod Nano Black.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\iPod Nano.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\iPod Shuffle.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\iPod.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Leak Badge.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Leaky Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Multi-Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Network Asia 2.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Network Asia.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Network Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Network.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Packages Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Patched Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Projects Badge.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Projects Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Recipes Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Script Badge.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Scripts Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Server Asia.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Server.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Toolbox Badge.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Toolbox Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Trash alt Empty.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Trash alt Full.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Vector Badge.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Vectors Folder.ico" />
+    <Content Include="icons\agx1_ico\Agua Extras vol 1\The Icons\Widget Badge.ico" />
+    <Content Include="icons\AirGround.GIF" />
+    <Content Include="icons\Base.GIF" />
+    <Content Include="icons\Begining.GIF" />
+    <Content Include="icons\CAS.GIF" />
+    <Content Include="icons\Closed.GIF" />
+    <Content Include="icons\Delete.GIF" />
+    <Content Include="icons\diskett3.gif" />
+    <Content Include="icons\door02.gif" />
+    <Content Include="icons\End.GIF" />
+    <Content Include="icons\file-manager.png" />
+    <Content Include="icons\Files.GIF" />
+    <Content Include="icons\Flap.GIF" />
+    <Content Include="icons\folder03.gif" />
+    <Content Include="icons\folder05.gif" />
+    <Content Include="icons\folder06.gif" />
+    <Content Include="icons\Gear.GIF" />
+    <Content Include="icons\graph04.gif" />
+    <Content Include="icons\graph05.gif" />
+    <Content Include="icons\HDG.GIF" />
+    <Content Include="icons\ILS.GIF" />
+    <Content Include="icons\kedit.png" />
+    <Content Include="icons\kfind.png" />
+    <Content Include="icons\kghostview.png" />
+    <Content Include="icons\MyICO.ico" />
+    <Content Include="icons\N1.GIF" />
+    <Content Include="icons\os-support.ico" />
+    <Content Include="icons\ping.gif" />
+    <Content Include="icons\Pitch.GIF" />
+    <Content Include="icons\RadioALT.GIF" />
+    <Content Include="icons\Sim.GIF" />
+    <Content Include="icons\stop.png" />
+    <Content Include="icons\Symbol-Add.png" />
+    <Content Include="icons\Symbol-Check.png" />
+    <Content Include="icons\Symbol-Construction.png" />
+    <Content Include="icons\Symbol-Delete.png" />
+    <Content Include="icons\Symbol-Error.png" />
+    <Content Include="icons\Symbol-Exclamation.png" />
+    <Content Include="icons\Symbol-Help.png" />
+    <Content Include="icons\Symbol-Information.png" />
+    <Content Include="icons\Symbol-Refresh.png" />
+    <Content Include="icons\Symbol-Restricted.png" />
+    <Content Include="icons\Symbol-Stop.png" />
+    <Content Include="icons\sync.GIF" />
+    <Content Include="icons\tat.GIF" />
+    <Content Include="icons\Trackauto.GIF" />
+    <Content Include="icons\trash1.gif" />
+    <Content Include="icons\vs.bmp" />
+    <Content Include="icons\VSI.GIF" />
+    <Content Include="icons\weight.GIF" />
+    <Content Include="icons\WV.GIF" />
+    <Content Include="mobilecheckintravelflightairplane_109781.ico" />
+    <Content Include="OIG.ico" />
+    <Content Include="os-support.ico" />
+    <Content Include="solenta.ico" />
+    <Content Include="star.ico" />
+    <Content Include="Yingfengling-Fl-Mac-Office-Paper-plane.ico" />
+    <EmbeddedResource Include="Forms\EventView.resx">
+      <DependentUpon>EventView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="graphDedicated.resx">
+      <DependentUpon>graphDedicated.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGraphNew.resx">
+      <DependentUpon>frmGraphNew.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="graphParameters.resx">
+      <DependentUpon>graphParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FlightsFlown.resx">
+      <DependentUpon>FlightsFlown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForms\testForm.resx">
+      <DependentUpon>testForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userInput.resx">
+      <DependentUpon>userInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="icons\agx1_ico.zip" />
+    <None Include="icons\agx1_ico\Agua Extras vol 1\.DS_Store" />
+    <None Include="icons\agx1_ico\Agua Extras vol 1\The Icons\.DS_Store" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cCalc.cs" />
+    <Compile Include="cData.cs" />
+    <Compile Include="createKML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="createKML.designer.cs">
+      <DependentUpon>createKML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fAircraft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAircraft.Designer.cs">
+      <DependentUpon>fAircraft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fAnalyzeParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAnalyzeParameters.Designer.cs">
+      <DependentUpon>fAnalyzeParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fFileName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fFileName.Designer.cs">
+      <DependentUpon>fFileName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fProgress.Designer.cs">
+      <DependentUpon>fProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAirports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Flights.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGraph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRunways.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRunways.Designer.cs">
+      <DependentUpon>fRunways.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSettings.Designer.cs">
+      <DependentUpon>fSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSim.Designer.cs">
+      <DependentUpon>fSim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTest.Designer.cs">
+      <DependentUpon>fTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTraking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTraking.Designer.cs">
+      <DependentUpon>fTraking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="createKML.resx">
+      <DependentUpon>createKML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAircraft.resx">
+      <DependentUpon>fAircraft.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAnalyzeParameters.resx">
+      <DependentUpon>fAnalyzeParameters.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fFileName.resx">
+      <DependentUpon>fFileName.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMain.resx">
+      <DependentUpon>fMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fProgress.resx">
+      <DependentUpon>fProgress.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAirports.resx">
+      <DependentUpon>frmAirports.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Flights.resx">
+      <DependentUpon>Flights.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGraph.resx">
+      <DependentUpon>frmGraph.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRunways.resx">
+      <DependentUpon>fRunways.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSettings.resx">
+      <DependentUpon>fSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSim.resx">
+      <DependentUpon>fSim.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTest.resx">
+      <DependentUpon>fTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTraking.resx">
+      <DependentUpon>fTraking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="dsCSV.xsc">
+      <DependentUpon>dsCSV.xsd</DependentUpon>
+    </None>
+    <None Include="dsCSV.xsx">
+      <DependentUpon>dsCSV.xsd</DependentUpon>
+    </None>
+    <None Include="FOQA_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="BusinessObjects.CrystalReports.10.5">
+      <Visible>False</Visible>
+      <ProductName>Crystal Reports Basic for Visual Studio 2008 %28x86, x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="DataSet2.xsd">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="dsAirports.xsd">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

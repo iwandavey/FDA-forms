@@ -1,0 +1,20 @@
+<setup>
+<Company>Fanjet dev</Company>
+<CSVPath>D:\Fanjet\CSV</CSVPath>
+<sql>true</sql>
+<databasePath>Data Source = (local)\SQLEXPRESS;Database=FanjetDev; Integrated Security = True</databasePath>
+<reportPath>D:\OneDrive\Documents\Projekte\FDA flightview\FDA\bin\Debug\Data\reportFanjet.mdb</reportPath>
+<AnalysesLogsPath>D:\Analyses logs\DevAnalysesLog</AnalysesLogsPath>
+<Mode>dev</Mode>user reporting \user \ Demo \ dev
+<connectionString>geen</connectionString>
+<note>set company name will select the db to use</note>
+<userprofile>
+<graphfirstview>
+<ilsloc>true</ilsloc>
+<ilsgs>true</ilsgs>
+</graphfirstview>
+</userprofile>
+</setup>
+
+
+

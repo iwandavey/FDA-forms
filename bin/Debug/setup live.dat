@@ -1,0 +1,8 @@
+<d>
+	<companyName>star</companyName>
+	<CSVPath>C:\Users\iwand\OneDrive - StarAir Cargo\Star\CSV</CSVPath>
+	<databaseRootPath>C:\Users\iwand\OneDrive - StarAir Cargo\Star\FDA\Data</databaseRootPath>
+	<Mode>dev</Mode>user reporting \user \ Demo
+	<connectionString>geen</connectionString>
+	<note>set company name will select the db to use</note>
+</d>
